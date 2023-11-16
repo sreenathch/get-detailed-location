@@ -1,0 +1,28 @@
+{
+  "name": "get-detailed-location",
+  "version": "1.0.1",
+  "description": "Get the detailed info including ipV4, ipV5, device and location details of the user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreenathch/get-detailed-location.git"
+  },
+  "keywords": [
+    "ipv5",
+    "location",
+    "zipcode",
+    "device",
+    "details",
+    "ipv6"
+  ],
+  "author": "Shreenath Chakinala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreenathch/get-detailed-location/issues"
+  },
+  "homepage": "https://github.com/sreenathch/get-detailed-location#readme"
+}
