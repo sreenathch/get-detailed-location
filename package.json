@@ -1,6 +1,6 @@
 {
   "name": "get-detailed-location",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get the detailed info including ipV4, ipV5, device and location details of the user.",
   "main": "index.js",
   "scripts": {
