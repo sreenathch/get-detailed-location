@@ -1,6 +1,6 @@
 {
   "name": "get-detailed-location",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A comprehensive location utilities library - IP geolocation, distance calculations, geofencing, geohash, coordinate conversions, and 60+ location utilities for Node.js and browsers.",
   "main": "index.js",
   "module": "index.js",

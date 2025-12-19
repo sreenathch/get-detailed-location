@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sreenathch/get-detailed-location/main/assets/logo.svg" alt="get-detailed-location" width="200"/>
-</p>
-
 <h1 align="center">get-detailed-location</h1>
 
 <p align="center">
