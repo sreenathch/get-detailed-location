@@ -1,28 +1,92 @@
 {
   "name": "get-detailed-location",
-  "version": "1.0.4",
-  "description": "Get the detailed info including ipV4, ipV5, device and location details of the user.",
+  "version": "2.0.0",
+  "description": "A comprehensive location utilities library - IP geolocation, distance calculations, geofencing, geohash, coordinate conversions, and 60+ location utilities for Node.js and browsers.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "module": "index.js",
   "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "lint": "eslint index.js",
+    "docs": "jsdoc -c jsdoc.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sreenathch/get-detailed-location.git"
   },
   "keywords": [
-    "ipv5",
     "location",
-    "zipcode",
-    "device",
-    "details",
-    "ipv6"
+    "geolocation",
+    "ip",
+    "ipv4",
+    "ipv6",
+    "coordinates",
+    "latitude",
+    "longitude",
+    "distance",
+    "haversine",
+    "vincenty",
+    "geofence",
+    "geofencing",
+    "geohash",
+    "bearing",
+    "compass",
+    "timezone",
+    "country",
+    "geocoding",
+    "bounding-box",
+    "clustering",
+    "gps",
+    "maps",
+    "navigation",
+    "geo",
+    "geography",
+    "spatial",
+    "polygon",
+    "point-in-polygon",
+    "dms",
+    "decimal-degrees",
+    "travel-time",
+    "speed-calculation",
+    "path-distance",
+    "midpoint",
+    "interpolation",
+    "google-maps"
   ],
-  "author": "Shreenath Chakinala",
-  "license": "ISC",
+  "author": {
+    "name": "Shreenath Chakinala",
+    "email": "chakinalasreenath@gmail.com",
+    "url": "https://github.com/sreenathch"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sreenathch/get-detailed-location/issues"
   },
-  "homepage": "https://github.com/sreenathch/get-detailed-location#readme"
+  "homepage": "https://github.com/sreenathch/get-detailed-location#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "jsdoc": "^4.0.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/sreenathch"
+  }
 }
